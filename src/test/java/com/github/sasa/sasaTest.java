@@ -14,13 +14,13 @@ public class sasaTest {
     public void getType() throws Exception {
 
         //Arrange
-        sasa triangle = new sasa(a:5 b:10 c:5);
+        sasa triangle = new sasa( 5,10,5);
 
         //Act
         String result =sasa.getType();
 
         //Assert
-        Assert.assertEquals(expected: "不是三角形",result);
+        Assert.assertEquals(  "不是三角形",result);
     }
 
 }

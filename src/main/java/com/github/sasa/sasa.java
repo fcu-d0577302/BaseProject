@@ -11,7 +11,7 @@ public class sasa {
         Arrays.sort(this.e);
     }
 
-    public String getType() {
+    public  String getType() {
         if (e[0] + e[1] <= e[2]) {
             return "不是三角形";
         }
